@@ -10,7 +10,7 @@ string []ResultArray = new string [count]; // полученный массив
 
 
 void EnterFirstArray (string []OriginalArray) // метод заполнения исходного массива
-{Console.WriteLine("Введите текст из " + OriginalArray.Length + " строк");
+{Console.WriteLine("Введите текст из " + OriginalArray.Length + " строк: ");
     for (int i = 0; i < OriginalArray.Length; i++)
     {
         OriginalArray [i] = Console.ReadLine();}
